@@ -1,0 +1,24 @@
+python -m venv env
+
+source env/bin/activate
+
+pip freeze
+
+django-admin startproject todo_main
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+
+Identify the field 
+
+create the models
+
+register the models in admin panel
+
+run the makemigration Command 
+ 
+run the make migrate command
+
